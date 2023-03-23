@@ -19,9 +19,9 @@ app.post("/", function (req, res) {
     else 
     {
         res.write(
-            `<h1 style="text-align: center;">Your answer is Wrong! Please try something else.</h1>`
+            `<h1 style="text-align: center; font-family: cursive;">Your answer is Wrong! Please try something else.</h1>`
           );
-        res.write(`<h3 style="text-align: center;">Click <a href="https://tamodipdas.ml/decisiaStep11/">here</a> to go back<h3>`
+        res.write(`<h2 style="text-align: center; font-family: cursive;">Click <a href="https://tamodipdas.ml/decisiaStep11/">here</a> to go back<h3>`
           )
         res.send();
     }
